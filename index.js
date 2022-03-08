@@ -57,8 +57,6 @@ const pintarCharacters = (characters) => {
 
     const album = document.querySelector(".album");
     album.innerHTML = "";
-    const h1$$ = document.createElement("h1");
-    h1$$.textContent = "Characters"
 
     characters.map((character) => {
 
@@ -71,7 +69,6 @@ const pintarCharacters = (characters) => {
         nombre.textContent = character.name;
         carta.style = `background-image: url(${character.image})`;
 
-        album.appendChild(h1$$);
         album.appendChild(carta);
         carta.appendChild(nombre);
 
@@ -84,8 +81,6 @@ const pintarMovies = (movies) => {
 
     const album = document.querySelector(".album");
     album.innerHTML = "";
-    const h1$$ = document.createElement("h1");
-    h1$$.textContent = "Movies"
 
     movies.map((movie) => {
 
@@ -98,7 +93,6 @@ const pintarMovies = (movies) => {
         titulo.textContent = movie.name;
         carta.style = `background-image: url(${movie.poster})`;
 
-        album.appendChild(h1$$);
         album.appendChild(carta);
         carta.appendChild(titulo);
 
@@ -110,8 +104,6 @@ const pintarPlanets = (planets) => {
 
     const album = document.querySelector(".album");
     album.innerHTML = "";
-    const h1$$ = document.createElement("h1");
-    h1$$.textContent = "Planets"
 
     planets.map((planet) => {
 
@@ -124,7 +116,6 @@ const pintarPlanets = (planets) => {
         nombre.textContent = planet.name;
         carta.style = `background-image: url(${planet.image})`;
 
-        album.appendChild(h1$$);
         album.appendChild(carta);
         carta.appendChild(nombre);
 
