@@ -86,14 +86,8 @@ li {
     ul {
 
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-
-        li {
-
-            margin: 0px 50px;
-    
-        }
 
     }
 
@@ -191,5 +185,11 @@ li {
     }
 
 
+
+}
+
+h1 {
+
+    color: whitesmoke;
 
 }
